@@ -34,8 +34,8 @@ class _MusicPlayerDetailScreenState extends State<MusicPlayerDetailScreen>
   )..repeat(reverse: true);
 
   late final Animation<Offset> _marqueeTween = Tween(
-    begin: const Offset(1, 0),
-    end: const Offset(-1, 0),
+    begin: const Offset(1.0, 0),
+    end: const Offset(-1.0, 0),
   ).animate(_marqueeController);
 
   late final AnimationController _menuController = AnimationController(
@@ -357,7 +357,7 @@ class _MusicPlayerDetailScreenState extends State<MusicPlayerDetailScreen>
                   SlideTransition(
                     position: _marqueeTween,
                     child: const Text(
-                      "A film By Christopher Nolan",
+                      "A film By Christopher Nolan - Original Motion Picture Soundtrack || A film By Christopher Nolan - Original Motion Picture Soundtrack",
                       maxLines: 1,
                       overflow: TextOverflow.visible,
                       softWrap: false,
