@@ -357,7 +357,7 @@ class _MusicPlayerDetailScreenState extends State<MusicPlayerDetailScreen>
                   SlideTransition(
                     position: _marqueeTween,
                     child: const Text(
-                      "A film By Christopher Nolan - Original Motion Picture Soundtrack || A film By Christopher Nolan - Original Motion Picture Soundtrack",
+                      "A film By Christopher Nolan - Original Motion",
                       maxLines: 1,
                       overflow: TextOverflow.visible,
                       softWrap: false,
